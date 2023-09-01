@@ -4,9 +4,7 @@
     {
         static void Main(string[] args)
         {
-            
-     
-
+                 
             //while loop
             int i = 10;
             while (i < 10)
@@ -20,9 +18,17 @@
             while (aVariableThatNeverIncrements < 10)
             {
                 Console.WriteLine($"The counter is {aVariableThatNeverIncrements}");
-                bool result = 1 == 1 ? 1==2 ? false : true : false;
-
+                /* 
+                
+                as we never increment the 
+                variable in the test... (aVariableThatNeverIncrements < 10)
+                it'll never contain 10 so we'll loop to infinity!
+                we'll just break out of the loop
+                
+                */
+                break;
             }
+            //NOTE: the break could be placed inside a condition if we choose to finish a loop early
 
             //do while
             int j = 10;
