@@ -4,6 +4,30 @@
     {
         static void Main(string[] args)
         {
+            //while loop
+            int i = 10;
+            while (i < 10)
+            {
+                Console.WriteLine($"The counter is {i}");
+                i++;
+            }
+
+
+            //do while
+            int j = 10;
+            do
+            {
+                Console.WriteLine($"The counter is {j}");
+                j++;
+            } while (j < 10);
+
+
+
+            //for loop
+            for (int k = 0; k < 10; k++)
+            {
+                Console.WriteLine($"The index is {k}");
+            }
 
 
             //up
